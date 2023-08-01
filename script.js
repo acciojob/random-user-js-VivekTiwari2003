@@ -16,7 +16,7 @@ document.getElementById("getUser").addEventListener("click", () => {
             document.querySelector(".info-email").textContent = `Email: ${email}`;
             document.querySelector(".info-phone").textContent = `Phone: ${phone}`;
 
-            document.querySelector(".additional-info").style.display = "none";
+            // document.querySelector(".additional-info").style.display = "none";
         })
         .catch((error) => console.error("Error fetching random user:", error));
 });
